@@ -11,6 +11,11 @@ app.use(express.static('public'));
 
 PORT = process.env.PORT || 3501;
 
+
+app.use((red,res)=>{
+    res.status(404).render('home');
+})
+
 app.get('/',(req,res)=>{
     res.render('home');
     

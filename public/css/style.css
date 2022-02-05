@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,p{
   margin: 0.75%;
 }
 .navigator{
-    background-color:white;
+    background-color:#800040;
     display: flex;
 }
 .btn {
@@ -21,7 +21,6 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #800040;
     color: white;
     border: 1px solid #800040;
-    margin: 0.25%;
     padding:1.15%;
   }
   .btn:hover {
@@ -57,10 +56,6 @@ hr{
   }
   .input{
     margin-bottom: 0.2em;
-  }
-  .btn:active{
-      background-color: black;
-      color: yellow;
   }
   .hide{
     display: none;

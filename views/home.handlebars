@@ -1,32 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>smartInvoice</title>
-</head>
-
 <body>
 
-  <div style="background-color: #800040;">
+  <div>
+    <div class="navigator">
+
     <button class="btn homebtn">Home</button>
     <button class="btn aboutbtn">About Us</button>
     <button class="btn aboutbtn">Get Started</button>
     <button class="btn contactbtn">Contact Us</button>
+    </div>
 </div>
 
-
-    </div>
     <hr>
+    <div class="home">
+    <div class="card">
     <h1 style="text-align: center;">Download your favorite website</h1>
     <br>
-    <div class="card home">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore aspernatur suscipit distinctio odio natus consectetur veniam
+    <div class="slideshow-container">
+        <div class="mySlide fade">
+            <div class="numbertext">
+                1/4
+            </div>
+            <img src="pic/edu.jpg" alt="education" style="width: 100%;
+            height: 500px;">
+            <div class="text">Education website</div>
+        </div>
+
+        <div class="mySlide fade">
+            <div class="numbertext">
+                2/4
+            </div>
+            <img src="pic/Logistic.png" alt="Logistics" style="width: 100%;height: 500px;">
+            <div class="text">Logistics website</div>
+        </div>
+
+
+        <div class="mySlide fade">
+            <div class="numbertext">
+                3/4
+            </div>
+            <img src="pic/market.jpg" alt="Marketing" style="width: 100%;height: 500px;">
+            <div class="text">Marketing website</div>
+        </div>
+
+        <div class="mySlide fade">
+            <div class="numbertext">
+                4/4
+            </div>
+            <img src="pic/tourism.jpg" alt="Tourism" style="width: 100%;height: 500px;">
+            <div class="text">Tourism website</div>
+        </div>
+
+        
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dots"> </span>
+        <span class="dots"> </span>
+        <span class="dots"> </span>
+        <span class="dots"> </span>
+    </div>
+    </div>
+     <br>
+     <br>
+    <div class="card">
+        <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore aspernatur suscipit distinctio odio natus consectetur veniam
              deleniti enim quia. Et consectetur adipisci optio incidunt fuga accusamus molestiae sunt voluptatum.</p>
-        <img src="pic/edu.jpg" alt="education" width="100%">
+        <div class="slideshow-container">
+        <div class="mySlide1 fade">
+            <div class="numbertext">
+                1/3
+            </div>
+            <img src="pic/edu.jpg" alt="" style="width: 100%;
+            height: 500px;">
+            <div class="text">Cation one</div>
+        </div>
+
+
+
+        <div class="mySlide1 fade">
+            <div class="numbertext">
+                2/3
+            </div>
+            <img src="pic/Logistic.png" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation two</div>
+        </div>
+
+
+        <div class="mySlide1 fade">
+            <div class="numbertext">
+                3/3
+            </div>
+            <img src="pic/market.jpg" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlide1(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide1(1)">&#10095;</a>
+    </div>
+
+    <br>
+    <div style="text-align: center;">
+        <span class="dot1" onclick="currentSlide1(1)"> </span>
+        <span class="dot1" onclick="currentSlide1(2)"> </span>
+        <span class="dot1" onclick="currentSlide1(3)"> </span>
+    </div>
     </div>
     <br>
     <form action="download/edu" method="get">
@@ -34,10 +111,48 @@
     </form>
     <br>
     <br>
-    <div class="card home">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore aspernatur suscipit distinctio odio natus consectetur veniam
+    <div class="card">
+        <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore aspernatur suscipit distinctio odio natus consectetur veniam
              deleniti enim quia. Et consectetur adipisci optio incidunt fuga accusamus molestiae sunt voluptatum.</p>
-        <img src="pic/Logistic.png" alt="logistic" width="100%">
+        <div class="slideshow-container">
+        <div class="mySlide2 fade">
+            <div class="numbertext">
+                1/3
+            </div>
+            <img src="pic/edu.jpg" alt="" style="width: 100%;
+            height: 500px;">
+            <div class="text">Cation one</div>
+        </div>
+
+
+
+        <div class="mySlide2 fade">
+            <div class="numbertext">
+                2/3
+            </div>
+            <img src="pic/Logistic.png" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation two</div>
+        </div>
+
+
+        <div class="mySlide2 fade">
+            <div class="numbertext">
+                3/3
+            </div>
+            <img src="pic/market.jpg" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlide2(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide2(1)">&#10095;</a>
+    </div>
+
+    <br>
+    <div style="text-align: center;">
+        <span class="dot2" onclick="currentSlide2(1)"> </span>
+        <span class="dot2" onclick="currentSlide2(2)"> </span>
+        <span class="dot2" onclick="currentSlide2(3)"> </span>
+    </div>
     </div>
     <br>
     <form action="download/logistic" method="get">
@@ -45,10 +160,48 @@
         </form>
     <br>
     <br>
-    <div class="card home">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore aspernatur suscipit distinctio odio natus consectetur veniam
+    <div class="card">
+        <p>3Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore aspernatur suscipit distinctio odio natus consectetur veniam
              deleniti enim quia. Et consectetur adipisci optio incidunt fuga accusamus molestiae sunt voluptatum.</p>
-        <img src="pic/market.jpg" alt="marketing" width="100%">
+        <div class="slideshow-container">
+        <div class="mySlide3 fade">
+            <div class="numbertext">
+                1/3
+            </div>
+            <img src="pic/edu.jpg" alt="" style="width: 100%;
+            height: 500px;">
+            <div class="text">Cation one</div>
+        </div>
+
+
+
+        <div class="mySlide3 fade">
+            <div class="numbertext">
+                2/3
+            </div>
+            <img src="pic/Logistic.png" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation two</div>
+        </div>
+
+
+        <div class="mySlide3 fade">
+            <div class="numbertext">
+                3/3
+            </div>
+            <img src="pic/market.jpg" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlide3(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide3(1)">&#10095;</a>
+    </div>
+
+    <br>
+    <div style="text-align: center;">
+        <span class="dot3" onclick="currentSlide3(1)"> </span>
+        <span class="dot3" onclick="currentSlide3(2)"> </span>
+        <span class="dot3" onclick="currentSlide3(3)"> </span>
+    </div>
     </div>
     <br>
     <form action="download/marketing" method="get">
@@ -56,15 +209,54 @@
     </form>
     <br>
     <br>
-    <div class="card home">
+    <div class="card">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore aspernatur suscipit distinctio odio natus consectetur veniam
              deleniti enim quia. Et consectetur adipisci optio incidunt fuga accusamus molestiae sunt voluptatum.</p>
-        <img src="pic/tourism.jpg" alt="Travel width="100%">
+        <div class="slideshow-container">
+        <div class="mySlide4 fade">
+            <div class="numbertext">
+                1/3
+            </div>
+            <img src="pic/edu.jpg" alt="" style="width: 100%;
+            height: 500px;">
+            <div class="text">Cation one</div>
+        </div>
+
+
+
+        <div class="mySlide4 fade">
+            <div class="numbertext">
+                2/3
+            </div>
+            <img src="pic/Logistic.png" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation two</div>
+        </div>
+
+
+        <div class="mySlide4 fade">
+            <div class="numbertext">
+                3/3
+            </div>
+            <img src="pic/market.jpg" alt="" style="width: 100%;height: 500px;">
+            <div class="text">Cation three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlide4(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide4(1)">&#10095;</a>
+    </div>
+
+    <br>
+    <div style="text-align: center;">
+        <span class="dot4" onclick="currentSlide4(1)"> </span>
+        <span class="dot4" onclick="currentSlide4(2)"> </span>
+        <span class="dot4" onclick="currentSlide4(3)"> </span>
+    </div>
     </div>
     <br>
     <form action="download/travel" method="get">
         <button type="submit">Download</button>
         </form>
+    </div>
     <br>
     <br>
 
@@ -131,69 +323,5 @@
         <br>
     </div>
 
-
-
-    <script>
-
-        const homeElem = document.querySelector(".homebtn");
-        const aboutElem = document.querySelector(".aboutbtn");
-        const contactElem = document.querySelector(".contactbtn");
-        const contactFooter=document.getElementById('contactFooter');
-        const aboutFooter=document.getElementById('aboutFooter');
-
-        const home = document.querySelector(".home");
-        const about = document.querySelector(".about");
-        const contact = document.querySelector(".contact");
-
-        contact.classList.add("hide");
-        about.classList.add("hide");
-
-       aboutFooter.onclick=aboutSelector;
-       contactFooter.onclick=contactSelector;
-
-        function homeSelector() {
-
-            about.classList.add("hide");
-            contact.classList.add("hide");
-            home.classList.remove("hide");
-
-        };
-
-        function aboutSelector() {
-
-            home.classList.add("hide");
-            contact.classList.add("hide");
-            about.classList.remove("hide");
-
-        };
-
-        function contactSelector() {
-
-            about.classList.add("hide");
-            home.classList.add("hide");
-            contact.classList.remove("hide");
-        };
-
-        homeElem.addEventListener('click', homeSelector);
-        aboutElem.addEventListener('click', aboutSelector);
-        contactElem.addEventListener('click', contactSelector);
-
-
-    </script>
-    <script>
-
-        function showPassword() {
-
-        const  passwordElem= document.getElementById("password");
-
-            if (passwordElem.type === "password") {
-                passwordElem.type = "text";
-            } else {
-                passwordElem.type = "password";
-            }
-        }
-    </script>
-
+    
 </body>
-
-</html>
