@@ -1,0 +1,89 @@
+body{
+
+max-width: 100%;
+margin: auto;
+text-align: center;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color: #000000;
+  margin: 0.75%;
+}
+.navigator{
+    background-color:#800040;
+    display: flex;
+}
+.btn {
+    font: inherit;
+    width: 23%;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #800040;
+    color: white;
+    border: 1px solid #800040;
+    padding:1.15%;
+  }
+  .btn:hover {
+    background-color: #9c1458;
+    border-color: #9c1458;
+  }
+  input{
+    width: 95%;
+    padding: 2%;
+    margin: 1%;
+    }
+    input:focus{
+        background-color:lightblue;
+    
+    }
+    
+
+hr{
+    background-color: red;
+  }
+  .card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  table{
+    width: 100%;
+    table-layout:fixed;
+  }
+  .input{
+    margin-bottom: 0.2em;
+  }
+  .hide{
+    display: none;
+  }
+  a{
+    text-decoration: none;
+    padding: 0.2px;
+    margin:0.25%;
+  }
+  .foot{
+    display: none;
+  }
+  
+  @media (min-width:720px){
+    body{
+      width: 80%;
+      margin: auto;
+      background-color: whitesmoke;
+    }
+    .foot{
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      bottom: 0px;
+      padding: 0.5%;
+      background-color: DarkSalmon;
+    }
+    
+  }
+  
